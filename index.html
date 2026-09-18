@@ -279,7 +279,7 @@ function tagHtml(cat){
 function imageBlock(g){
   return `
     <div class="card-image">
-      <img src="images/${g.id}.jpg" alt="${g.titre}"
+      <img src="images/monimage.jpg" alt="Titre">
            onerror="if(!this.dataset.tried){this.dataset.tried='1'; this.src='images/${g.id}.png';} else { this.style.display='none'; this.nextElementSibling.style.display='flex'; }">
       <div class="img-placeholder">🎲</div>
     </div>
